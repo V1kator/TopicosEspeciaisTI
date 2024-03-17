@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(230, 110, 66);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  background-color: purple;
+  background-image: url(/src/Img/fundo.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.titulo {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(230, 110, 66);
+}
+
+hr {
+  background-color: rgb(230, 110, 66);
+  border-radius: 30px;
+  width: 50%;
+  height: 5px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 30px, 0, 30px, 0;
+  background-color: rgb(230, 110, 66);
+}
+
+iframe {
+  border-color: rgb(230, 110, 66);
+  border: 10px;
+  opacity: 100%;
+}
+
+.letra {
+  text-align: center;
+}
+
+p {
+  color: wheat;
+}
+
+img{
+  max-width: 30%;
+}
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sobre_artista{
+  text-align: center;
+}
